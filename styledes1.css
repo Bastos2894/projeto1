@@ -1,0 +1,161 @@
+*{
+  margin: 0px;
+
+}
+
+#cabecalho{
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 475px;
+    background: #303030;
+}
+
+#titulo-cabecalho{
+    position: absolute;
+    width: 1024px;
+    height: 72px;
+    margin-left: 62px;
+    margin-top: 206px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga';
+    color: white;
+}
+
+#texto-cabecalho{
+        
+    position: absolute;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    /* identical to box height, or 140% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+#propaganda{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.prop-numeros{
+   font-size: 30px;
+   font-weight: 600;
+   
+}
+
+.texto{
+   font-size: 15px;
+   font-family: 'inter';
+   font-weight: 400;
+    
+}
+
+#historico{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.config-historico{
+    align-items: center;
+    padding-top: 180px;
+    padding-left: 120px;
+}
+
+#historico-titulo{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'inter';
+}
+
+#historico-texto{
+    font-size: 18px;
+    padding-top: 5%;
+    font-family: 'inter';
+}
+
+#historico-img{
+    width: 450px;
+    height: 490px;
+    left: 976px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+
+#formulario{
+    align-items: center;
+    background: #303030;
+    text-align: center;
+    height: 638px;
+    padding-top:87px;
+    margin-top: 57px;
+}
+
+#titulo-formulario{
+   color: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   margin-bottom: 17px;
+   line-height: 150%;
+ 
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 31px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background: #C07212;
+    border: 0px;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-style: normal ;
+    font-weight:  700;
+    line-height: 30px;
+    margin-top: 57px;
+    cursor:pointer;
+
+}
